@@ -1,0 +1,47 @@
+See file:///home/hcrhs-10/DriveTest/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
+compiling DalekDrive.cpp failed.
+In file included from /home/hcrhs-10/DriveTest/src/main/include/Drake.h:14:0,
+                 from /home/hcrhs-10/DriveTest/src/main/cpp/DalekDrive.cpp:1:
+/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/72da0f4b93a21f6f7d638a923ab3c441/wpilibc-cpp-2020.1.2-headers/frc/WPILib.h:14:2: warning: #warning is a GCC extension
+ #warning "Including this header drastically increases compilation times and is bad style. Include only what you use instead."
+  ^~~~~~~
+/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/72da0f4b93a21f6f7d638a923ab3c441/wpilibc-cpp-2020.1.2-headers/frc/WPILib.h:14:2: warning: #warning "Including this header drastically increases compilation times and is bad style. Include only what you use instead." [-Wcpp]
+/home/hcrhs-10/DriveTest/src/main/cpp/DalekDrive.cpp:2:10: fatal error: frc/JoyStick.h: No such file or directory
+ #include <frc/JoyStick.h>
+          ^~~~~~~~~~~~~~~~
+compilation terminated.
+
+compiling Robot.cpp failed.
+In file included from /home/hcrhs-10/DriveTest/src/main/include/Drake.h:14:0,
+                 from /home/hcrhs-10/DriveTest/src/main/cpp/Robot.cpp:8:
+/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/72da0f4b93a21f6f7d638a923ab3c441/wpilibc-cpp-2020.1.2-headers/frc/WPILib.h:14:2: warning: #warning is a GCC extension
+ #warning "Including this header drastically increases compilation times and is bad style. Include only what you use instead."
+  ^~~~~~~
+/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/72da0f4b93a21f6f7d638a923ab3c441/wpilibc-cpp-2020.1.2-headers/frc/WPILib.h:14:2: warning: #warning "Including this header drastically increases compilation times and is bad style. Include only what you use instead." [-Wcpp]
+In file included from /home/hcrhs-10/DriveTest/src/main/cpp/Robot.cpp:8:0:
+/home/hcrhs-10/DriveTest/src/main/include/Drake.h:38:3: error: 'DalekShuffleboard' does not name a type
+   DalekShuffleboard *dalekShuffleboard;
+   ^~~~~~~~~~~~~~~~~
+/home/hcrhs-10/DriveTest/src/main/include/Drake.h:43:8: error: 'POVButton' in namespace 'frc' does not name a type
+   frc::POVButton *m_dPad[4];
+        ^~~~~~~~~
+/home/hcrhs-10/DriveTest/src/main/cpp/Robot.cpp:18:22: error: no 'void Robot::Disabled()' member function declared in class 'Robot'
+ void Robot::Disabled() {}
+                      ^
+/home/hcrhs-10/DriveTest/src/main/cpp/Robot.cpp:20:24: error: no 'void Robot::Autonomous()' member function declared in class 'Robot'
+ void Robot::Autonomous() {}
+                        ^
+/home/hcrhs-10/DriveTest/src/main/cpp/Robot.cpp:22:20: error: no 'void Robot::Teleop()' member function declared in class 'Robot'
+ void Robot::Teleop() {}
+                    ^
+/home/hcrhs-10/DriveTest/src/main/cpp/Robot.cpp:24:18: error: no 'void Robot::Test()' member function declared in class 'Robot'
+ void Robot::Test() {}
+                  ^
+/home/hcrhs-10/DriveTest/src/main/cpp/Robot.cpp:26:30: error: no 'void Robot::StartCompetition()' member function declared in class 'Robot'
+ void Robot::StartCompetition() {
+                              ^
+/home/hcrhs-10/DriveTest/src/main/cpp/Robot.cpp:63:28: error: no 'void Robot::EndCompetition()' member function declared in class 'Robot'
+ void Robot::EndCompetition() { m_exit = true; }
+                            ^
+
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///home/hcrhs-10/DriveTest/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.

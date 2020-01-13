@@ -1,0 +1,398 @@
+[
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "/home/hcrhs-10/wpilib/2020/roborio/bin/arm-frc2020-linux-gnueabi-g++",
+    "cPath": "/home/hcrhs-10/wpilib/2020/roborio/bin/arm-frc2020-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/72da0f4b93a21f6f7d638a923ab3c441/wpilibc-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/be8da9ee2b5f7b3ce3a3310b6b4a15c7/ntcore-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/25057a54d01816566061382a92b66751/hal-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/ef695313b64f074779f043e48baaf166/wpiutil-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/d56d3c3d0739951a53ce671acdf8b0a6/chipobject-2020.10.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/41b2c5019815c703eabdc1acf17b2548/netcomm-2020.10.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/fd112e173add5095d6dcc9d7948ca03a/visa-2020.10.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/458162d3473485c01c5444a21fd82deb/cameraserver-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/15c0fa445760a88b91faad4aec5e9954/cscore-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/2266d673515ab8d7fc2f1af5179af2a3/opencv-cpp-3.4.7-2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/8349c63cb2a7a6ebd9597273a1a3e166/wpilibOldCommands-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/1aa7391616bb8e00307b577dd3010c1e/SparkMax-cpp-1.5.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/024e524dd426945acd45ed62e40ffd7f/SparkMax-driver-1.5.1-headers/",
+      "/home/hcrhs-10/DriveTest/src/main/include/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/63c4916424ecf34cba10d271a47922c5/wpilibc-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/31ce06313efe5635e51541e57416145d/ntcore-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/7308b02146812c048c920269d46db7d3/hal-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/b16305fa8a6cd687e510fffa158e5aa7/wpiutil-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/61ccc8a113bcb73e3948c40e8d87d458/cameraserver-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/daf6c547e00c92e855bedfc76bf9409a/cscore-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/fdb7af649164dc9fc22f302b1fc9e621/opencv-cpp-3.4.7-2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/3279a7e6407a9d4fe69e36a6f50e2efd/wpilibOldCommands-cpp-2020.1.2-sources/"
+    ],
+    "allLibSources": [
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/63c4916424ecf34cba10d271a47922c5/wpilibc-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/31ce06313efe5635e51541e57416145d/ntcore-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/7308b02146812c048c920269d46db7d3/hal-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/b16305fa8a6cd687e510fffa158e5aa7/wpiutil-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/61ccc8a113bcb73e3948c40e8d87d458/cameraserver-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/daf6c547e00c92e855bedfc76bf9409a/cscore-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/fdb7af649164dc9fc22f302b1fc9e621/opencv-cpp-3.4.7-2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/3279a7e6407a9d4fe69e36a6f50e2efd/wpilibOldCommands-cpp-2020.1.2-sources/"
+    ],
+    "allLibHeaders": [
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/72da0f4b93a21f6f7d638a923ab3c441/wpilibc-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/be8da9ee2b5f7b3ce3a3310b6b4a15c7/ntcore-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/25057a54d01816566061382a92b66751/hal-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/ef695313b64f074779f043e48baaf166/wpiutil-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/d56d3c3d0739951a53ce671acdf8b0a6/chipobject-2020.10.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/41b2c5019815c703eabdc1acf17b2548/netcomm-2020.10.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/fd112e173add5095d6dcc9d7948ca03a/visa-2020.10.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/458162d3473485c01c5444a21fd82deb/cameraserver-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/15c0fa445760a88b91faad4aec5e9954/cscore-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/2266d673515ab8d7fc2f1af5179af2a3/opencv-cpp-3.4.7-2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/8349c63cb2a7a6ebd9597273a1a3e166/wpilibOldCommands-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/1aa7391616bb8e00307b577dd3010c1e/SparkMax-cpp-1.5.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/024e524dd426945acd45ed62e40ffd7f/SparkMax-driver-1.5.1-headers/",
+      "/home/hcrhs-10/DriveTest/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/home/hcrhs-10/DriveTest/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/home/hcrhs-10/DriveTest/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-g",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-Og"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/72da0f4b93a21f6f7d638a923ab3c441/wpilibc-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/be8da9ee2b5f7b3ce3a3310b6b4a15c7/ntcore-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/25057a54d01816566061382a92b66751/hal-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/ef695313b64f074779f043e48baaf166/wpiutil-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/d56d3c3d0739951a53ce671acdf8b0a6/chipobject-2020.10.1-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/41b2c5019815c703eabdc1acf17b2548/netcomm-2020.10.1-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/fd112e173add5095d6dcc9d7948ca03a/visa-2020.10.1-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/458162d3473485c01c5444a21fd82deb/cameraserver-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/15c0fa445760a88b91faad4aec5e9954/cscore-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/2266d673515ab8d7fc2f1af5179af2a3/opencv-cpp-3.4.7-2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/8349c63cb2a7a6ebd9597273a1a3e166/wpilibOldCommands-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/1aa7391616bb8e00307b577dd3010c1e/SparkMax-cpp-1.5.1-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/024e524dd426945acd45ed62e40ffd7f/SparkMax-driver-1.5.1-headers/",
+          "/home/hcrhs-10/DriveTest/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/home/hcrhs-10/DriveTest/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-g",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/home/hcrhs-10/DriveTest/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-g",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "/home/hcrhs-10/wpilib/2020/roborio/bin/arm-frc2020-linux-gnueabi-g++",
+    "cPath": "/home/hcrhs-10/wpilib/2020/roborio/bin/arm-frc2020-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/72da0f4b93a21f6f7d638a923ab3c441/wpilibc-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/be8da9ee2b5f7b3ce3a3310b6b4a15c7/ntcore-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/25057a54d01816566061382a92b66751/hal-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/ef695313b64f074779f043e48baaf166/wpiutil-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/d56d3c3d0739951a53ce671acdf8b0a6/chipobject-2020.10.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/41b2c5019815c703eabdc1acf17b2548/netcomm-2020.10.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/fd112e173add5095d6dcc9d7948ca03a/visa-2020.10.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/458162d3473485c01c5444a21fd82deb/cameraserver-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/15c0fa445760a88b91faad4aec5e9954/cscore-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/2266d673515ab8d7fc2f1af5179af2a3/opencv-cpp-3.4.7-2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/8349c63cb2a7a6ebd9597273a1a3e166/wpilibOldCommands-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/1aa7391616bb8e00307b577dd3010c1e/SparkMax-cpp-1.5.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/024e524dd426945acd45ed62e40ffd7f/SparkMax-driver-1.5.1-headers/",
+      "/home/hcrhs-10/DriveTest/src/main/include/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/63c4916424ecf34cba10d271a47922c5/wpilibc-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/31ce06313efe5635e51541e57416145d/ntcore-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/7308b02146812c048c920269d46db7d3/hal-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/b16305fa8a6cd687e510fffa158e5aa7/wpiutil-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/61ccc8a113bcb73e3948c40e8d87d458/cameraserver-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/daf6c547e00c92e855bedfc76bf9409a/cscore-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/fdb7af649164dc9fc22f302b1fc9e621/opencv-cpp-3.4.7-2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/3279a7e6407a9d4fe69e36a6f50e2efd/wpilibOldCommands-cpp-2020.1.2-sources/"
+    ],
+    "allLibSources": [
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/63c4916424ecf34cba10d271a47922c5/wpilibc-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/31ce06313efe5635e51541e57416145d/ntcore-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/7308b02146812c048c920269d46db7d3/hal-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/b16305fa8a6cd687e510fffa158e5aa7/wpiutil-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/61ccc8a113bcb73e3948c40e8d87d458/cameraserver-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/daf6c547e00c92e855bedfc76bf9409a/cscore-cpp-2020.1.2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/fdb7af649164dc9fc22f302b1fc9e621/opencv-cpp-3.4.7-2-sources/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/3279a7e6407a9d4fe69e36a6f50e2efd/wpilibOldCommands-cpp-2020.1.2-sources/"
+    ],
+    "allLibHeaders": [
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/72da0f4b93a21f6f7d638a923ab3c441/wpilibc-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/be8da9ee2b5f7b3ce3a3310b6b4a15c7/ntcore-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/25057a54d01816566061382a92b66751/hal-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/ef695313b64f074779f043e48baaf166/wpiutil-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/d56d3c3d0739951a53ce671acdf8b0a6/chipobject-2020.10.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/41b2c5019815c703eabdc1acf17b2548/netcomm-2020.10.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/fd112e173add5095d6dcc9d7948ca03a/visa-2020.10.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/458162d3473485c01c5444a21fd82deb/cameraserver-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/15c0fa445760a88b91faad4aec5e9954/cscore-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/2266d673515ab8d7fc2f1af5179af2a3/opencv-cpp-3.4.7-2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/8349c63cb2a7a6ebd9597273a1a3e166/wpilibOldCommands-cpp-2020.1.2-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/1aa7391616bb8e00307b577dd3010c1e/SparkMax-cpp-1.5.1-headers/",
+      "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/024e524dd426945acd45ed62e40ffd7f/SparkMax-driver-1.5.1-headers/",
+      "/home/hcrhs-10/DriveTest/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/home/hcrhs-10/DriveTest/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/home/hcrhs-10/DriveTest/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-g",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/72da0f4b93a21f6f7d638a923ab3c441/wpilibc-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/be8da9ee2b5f7b3ce3a3310b6b4a15c7/ntcore-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/25057a54d01816566061382a92b66751/hal-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/ef695313b64f074779f043e48baaf166/wpiutil-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/d56d3c3d0739951a53ce671acdf8b0a6/chipobject-2020.10.1-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/41b2c5019815c703eabdc1acf17b2548/netcomm-2020.10.1-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/fd112e173add5095d6dcc9d7948ca03a/visa-2020.10.1-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/458162d3473485c01c5444a21fd82deb/cameraserver-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/15c0fa445760a88b91faad4aec5e9954/cscore-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/2266d673515ab8d7fc2f1af5179af2a3/opencv-cpp-3.4.7-2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/8349c63cb2a7a6ebd9597273a1a3e166/wpilibOldCommands-cpp-2020.1.2-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/1aa7391616bb8e00307b577dd3010c1e/SparkMax-cpp-1.5.1-headers/",
+          "/home/hcrhs-10/.gradle/caches/transforms-2/files-2.1/024e524dd426945acd45ed62e40ffd7f/SparkMax-driver-1.5.1-headers/",
+          "/home/hcrhs-10/DriveTest/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/home/hcrhs-10/DriveTest/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-g",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/home/hcrhs-10/DriveTest/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-g",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  }
+]
